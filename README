@@ -1,2 +1,17 @@
 Run `php packages.php` to generate the packages.json file.
 
+To require SimpleSAMLphp as a dependency using GitHub as the repository,
+add the following lines to your project's composer.json file:
+
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://raw.github.com/cpliakas/simplesamlphp-composer/master"
+        }
+    ],
+    "require": {
+        "simplesamlphp/simplesamlphp": "1.10.*"
+    }
+}
+
