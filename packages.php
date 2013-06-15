@@ -25,7 +25,15 @@ if (!$retvar) {
     ),
   );
 
-  $json = json_encode($packages, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT);
+  $json_options = JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT;
+  if (defined('JSON_PRETTY_PRINT')) {
+    $json_options = $json_options | JSON_PRETTY_PRINT;
+  }
+  if (defined('JSON_UNESCAPED_SLASHES')) {
+    $json_options = $json_options | JSON_UNESCAPED_SLASHES;
+  }
+
+  $json = json_encode($packages, $json_options);
   file_put_contents(__DIR__ . '/packages.json', $json);
 }
 else {
