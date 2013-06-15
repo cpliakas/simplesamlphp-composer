@@ -19,6 +19,10 @@ if (!$retvar) {
     );
   }
 
+  uksort($versions, function($a, $b) {
+    return version_compare($a, $b) * -1; // Sort by newest first.
+  });
+
   $packages = array(
     'packages' => array(
       'simplesamlphp/simplesamlphp' => $versions,
