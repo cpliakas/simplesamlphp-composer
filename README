@@ -7,7 +7,7 @@ add the following lines to your project's composer.json file:
     "repositories": [
         {
             "type": "composer",
-            "url": "https://raw.github.com/cpliakas/simplesamlphp-composer/master"
+            "url": "https://raw.github.com/Jaspaul/simplesamlphp-composer/master"
         }
     ],
     "require": {
