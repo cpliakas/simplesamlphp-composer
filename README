@@ -7,11 +7,11 @@ add the following lines to your project's composer.json file:
     "repositories": [
         {
             "type": "composer",
-            "url": "https://raw.github.com/Jaspaul/simplesamlphp-composer/master"
+            "url": "https://raw.github.com/cpliakas/simplesamlphp-composer/master"
         }
     ],
     "require": {
-        "simplesamlphp/simplesamlphp": "1.10.*"
+        "simplesamlphp/simplesamlphp": "1.12.*"
     }
 }
 
