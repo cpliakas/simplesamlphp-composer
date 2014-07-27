@@ -1,6 +1,38 @@
 {
     "packages": {
         "simplesamlphp/simplesamlphp": {
+            "1.13.0rc1": {
+                "name": "simplesamlphp/simplesamlphp",
+                "version": "1.13.0rc1",
+                "dist": {
+                    "url": "https://simplesamlphp.org/res/downloads/simplesamlphp-1.13.0-rc1.tar.gz",
+                    "type": "tar"
+                }
+            },
+            "1.12.0": {
+                "name": "simplesamlphp/simplesamlphp",
+                "version": "1.12.0",
+                "dist": {
+                    "url": "https://simplesamlphp.org/res/downloads/simplesamlphp-1.12.0.tar.gz",
+                    "type": "tar"
+                }
+            },
+            "1.12.0rc2": {
+                "name": "simplesamlphp/simplesamlphp",
+                "version": "1.12.0rc2",
+                "dist": {
+                    "url": "https://simplesamlphp.org/res/downloads/simplesamlphp-1.12.0-rc2.tar.gz",
+                    "type": "tar"
+                }
+            },
+            "1.12.0rc1": {
+                "name": "simplesamlphp/simplesamlphp",
+                "version": "1.12.0rc1",
+                "dist": {
+                    "url": "https://simplesamlphp.org/res/downloads/simplesamlphp-1.12.0-rc1.tar.gz",
+                    "type": "tar"
+                }
+            },
             "1.11.0": {
                 "name": "simplesamlphp/simplesamlphp",
                 "version": "1.11.0",
